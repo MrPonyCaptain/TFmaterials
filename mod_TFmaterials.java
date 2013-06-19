@@ -118,7 +118,7 @@ public class mod_TFmaterials{
         public static EnumArmorMaterial enumplu = EnumHelper.addArmorMaterial("PLUTONIUMARMOR", 30, new int[] {1, 4, 5, 2}, 9);
         public static EnumArmorMaterial enumchrys = EnumHelper.addArmorMaterial("CHRYSTALARMOR", 30, new int[] {3, 6, 4, 4}, 9);
         public static EnumArmorMaterial enumsteel = EnumHelper.addArmorMaterial("STEELARMOR", 30, new int[] {2, 5, 3, 2}, 9);
-        public static EnumArmorMaterial enumitadtal = EnumHelper.addArmorMaterial("ITADTALARMOR", 30, new int[] {3, 7, 6, 4}, 9); 
+        public static EnumArmorMaterial enumitadtal = EnumHelper.addArmorMaterial("ITADTALARMOR", 30, new int[] {3, 7, 5, 4}, 9); 
         
         // Says where the client and server 'proxy' code is loaded.
         @SidedProxy(clientSide="mod_TFmaterials.core.proxy.ClientProxy", serverSide="mod_TFmaterials.core.proxy.CommonProxy")
